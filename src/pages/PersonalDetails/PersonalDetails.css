@@ -1,0 +1,91 @@
+/* Personal Details Page */
+.content.personal-bg {
+    background-color: var(--highlight-color);
+  } 
+.personal-details-content {
+    color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .personal-details-content h2 {
+    font-family: var(--secondary-font);
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .personal-details-form .form-group {
+    width: 461px;
+    background-color: var(--white);
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 16px;
+    height: 56px;
+  }
+  
+  .personal-details-form .icon {
+    margin-right: 10px;
+    font-size: 16px;
+    color: var(--main-color); 
+  }
+  
+  .personal-details-form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--white);
+    color: var(--main-color); 
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .personal-details-form input::placeholder {
+    color: var(--main-color); 
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .personal-details-form textarea {
+    width: 461px;
+    height: auto;
+    min-height: 80px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: vertical;
+    margin-bottom: 15px;
+  }
+  
+  .personal-details-form textarea::placeholder {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+.personal-details-btn {
+    width: 100%;
+    max-width: 461px;
+    background-color: #0077b6; 
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.personal-details-btn:hover {
+  background-color: #023e8a;
+}
+.personal-details-form input,textarea:focus{
+  border:none;
+  outline: none;
+
+  }

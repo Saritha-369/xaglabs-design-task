@@ -1,0 +1,32 @@
+/* Our Team Section */
+.content.ourteam-bg {
+    background-color: var(--white);
+  }
+  
+.our-team-content {
+    padding: 25px 78px; 
+  }
+  
+  .our-team-content h2 {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 64px;
+  }
+  
+  .team-content-para {
+    font-family: var(--primary-font); 
+    width: 57%;
+    font-weight: 500;
+    padding: 20px 0;
+    font-size: 15px;
+    line-height: 21.79px;
+    text-align: justify;
+  }
+  
+  .team-desc {
+    line-height: 17px;
+    padding: 22px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,311 @@
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+/* Define Variables */
+:root {
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Bree Serif", serif;
+  --main-color: #161616;
+  --highlight-color: #e30655;
+  --accent-color: #f9a73e;
+  --border-color: #ddd;
+  --white: #fff;
+  --black: #000;
+  --sidebar-width: 80px;
+}
+
+/* Global Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: var(--primary-font);
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Main Container */
+.main-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Content Styling */
+.content {
+  /* position: relative; */
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  height: 100vh;
+  transition: margin 0.3s ease-in-out;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+
+.nav-link:focus-visible{
+  box-shadow: none !important;
+}
+
+/*Menu btn and Offcanvas Mobile View  */
+.menu-btn{
+  margin-right: -15px;
+
+}
+.btn:active {
+  border: none;
+}
+.offcanvas-header {
+  color: var(--white);
+}
+
+.offcanvas-header .offcanvas-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.offcanvas-body {
+  font-size: 18px;
+}
+
+.offcanvas-body .nav-link {
+  color: var(--main-color);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.offcanvas-body .nav-link.active-link {
+  color: var(--highlight-color);
+  font-weight: 700;
+}
+
+.offcanvas-body .nav-link:hover {
+  color: var(--highlight-color);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  /* Navbar */
+  .navbar {
+    padding: 10px;
+  }
+  .navbar-logo {
+    height: 40px;
+  }
+
+  .navbar .nav-link {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .navbar .nav-link.active-link {
+    color: var(--highlight-color);
+  }
+
+  /* Our Team */
+  .our-team-content h2 {
+    padding: 20px 15px 0px 15px;
+    font-size: 37px;
+  }
+  .our-team-content h2 {
+    font-size: 37px;
+  }
+
+  .team-content-para {
+    font-size: 14px;
+    text-align: center;
+  }
+  .our-team-content {
+    padding: 25px 15px;
+  }
+
+  .team-content-para {
+    font-size: 14px;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .team-desc {
+    font-size: 14px;
+  }
+
+  /* Personal Details */
+  
+  .personal-details-btn {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .team-content-para {
+    padding-inline: 15px;
+  }
+
+  .personal-details-content {
+    padding: 38px 15px;
+  }
+  .personal-details-content h2 {
+    font-size: 37px;
+  }
+  
+  .personal-details-form input::placeholder,
+  .personal-details-form textarea::placeholder {
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: 400;
+  }
+
+  /* Contact us */
+  .contact-us-content h2 {
+    font-size: 37px;
+  }
+
+  .contact-us-content {
+    padding: 38px 15px;
+  }
+  .contact-us-content p {
+    margin-top: 25px;
+  }
+  .contact-details p {
+    margin-top: 0;
+  }
+
+ 
+
+  /* footer */
+  .footer-content {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .main-container {
+    flex-direction: column;
+  }
+  .privacyandterms {
+  
+    gap: 1px;
+  }
+  .footer-divider{
+    display: block;
+  }
+  
+  .personal-details-form .form-group {
+    height: 47px;
+  }
+  
+}
+
+/* Adjustments for very small devices */
+@media screen and (max-width: 576px) {
+  .navbar .nav-link {
+    font-size: 12px;
+  }
+
+  .navbar-logo {
+    height: 30px;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .main-container {
+    flex-direction: column;
+  }
+
+  .team-content-para {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .team-desc {
+    font-size: 14px;
+  }
+  .personal-details-form .form-group {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .personal-details-form input,
+  .personal-details-form textarea {
+    color: var(--main-color);
+
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .personal-details-form input,
+  .personal-details-form textarea {
+    font-size: 14px;
+    padding: 12px;
+  }
+   /* Floating Icons */
+   .floating-icons {
+    right: 10px;
+  }
+  /* sidebar */
+  .sidebar {
+    font-size: 18px;
+    padding: 15px;
+    width: 60px;
+  }
+  .sidebar {
+    display: none;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .content {
+    padding: 0;
+  }
+
+  .footer-content {
+    font-size: 12px;
+    padding: 15px;
+  }
+
+  .footer-content .footer-links a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 997px) {
+  .team-content-para {
+    width: 100%;
+  }
+  .our-team-content {
+    padding:25px 0px 0px 0px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

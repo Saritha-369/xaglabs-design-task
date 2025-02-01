@@ -1,0 +1,32 @@
+.footer {
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  z-index: 1;
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  max-width: 90%;
+  margin: auto;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.privacyandterms{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+}
+.footer-divider{
+  display: none;
+}

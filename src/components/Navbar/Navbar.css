@@ -1,0 +1,29 @@
+.navbar  {
+  background-color: var(--white);
+  border-bottom: 2px solid var(--border-color);
+  padding: 20px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  color: var(--main-color);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 10px;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.navbar .nav-link:hover {
+  color: var(--main-color) 7d;
+}
+
+.navbar .nav-link.active-link {
+  color: var(--highlight-color);
+  font-weight: 700;
+}
+
+.navbar-logo {
+  height: 40px;
+  width: auto;
+}
