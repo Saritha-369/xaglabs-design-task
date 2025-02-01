@@ -28,8 +28,8 @@ const OurTeam = () => {
                     opportunities.
                   </p>
       </div>
-    <SwiperComponent />
       
+    <SwiperComponent />
     </div>
     </>
   );

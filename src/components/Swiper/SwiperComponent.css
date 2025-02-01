@@ -2,9 +2,12 @@
 .team-swiper {
     /* width: 100%; */
     height: var(--swiper-height);
-    overflow: hidden !important;
+    /* overflow: hidden !important; */
     padding: 10px 0;
     /* margin-bottom: 20px; */
+  }
+  .swiper{
+    overflow: visible !important;
   }
   
   .team-slide {
@@ -18,4 +21,7 @@
     border-radius: 10px;
     object-fit: cover; 
   }
+  
+
+  
   

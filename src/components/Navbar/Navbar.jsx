@@ -8,6 +8,7 @@ import {
   Button,
 } from "react-bootstrap";
 import "./Navbar.css";
+import logo from "../../assets/logo.png";
 
 const NavbarComponent = ({ page, setPage, showOffcanvas, setShowOffcanvas }) => {
   return (
@@ -16,7 +17,6 @@ const NavbarComponent = ({ page, setPage, showOffcanvas, setShowOffcanvas }) => 
         bg="light" 
         expand="lg" 
         className="px-3 py-3" 
-        // data-aos="fade-down" 
         role="navigation" 
         aria-label="Main Navigation"
       >
@@ -24,7 +24,7 @@ const NavbarComponent = ({ page, setPage, showOffcanvas, setShowOffcanvas }) => 
           <BSNavbar.Brand>
             <Link to="/" className="navbar-brand">
               <img 
-                src="logo.png" 
+                src={logo}
                 alt="Company Logo" 
                 className="navbar-logo" 
                 id="company-logo" 
