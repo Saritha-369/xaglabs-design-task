@@ -25,12 +25,12 @@ const SwiperComponent = () => {
       spaceBetween={20}
       slidesPerView={1.3}
       breakpoints={{
-        320: { slidesPerView: 1.3 },
+        320: { slidesPerView: 2 },
         375: { slidesPerView: 2 },
-        576: { slidesPerView: 2.7 },
+        410: { slidesPerView: 2.5 },
         768: { slidesPerView: 3.2 },
         998: { slidesPerView: 3.2 },
-        1440: { slidesPerView: 4.2 },
+        1440: { slidesPerView: 4.5 },
       }}
       className="team-swiper"
       aria-live="polite"

@@ -3,10 +3,6 @@
     background-color: var(--white);
   }
   
-.our-team-content {
-    padding: 25px 78px; 
-  }
-  
   .our-team-content h2 {
     font-family: var(--secondary-font);
     font-weight: 400;
@@ -17,16 +13,40 @@
     font-family: var(--primary-font); 
     width: 57%;
     font-weight: 500;
-    padding: 20px 0;
+    padding: 1rem 0;
     font-size: 15px;
     line-height: 21.79px;
     text-align: justify;
   }
   
   .team-desc {
-    line-height: 17px;
     padding: 22px;
     font-weight: 500;
     font-size: 16px;
+  }
+
+  .our-team-content {
+    width: 88%;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 25px 0px; 
+  }
+  
+  @media (max-width: 767px) {
+    .our-team-content {
+      width: 97%;     
+      padding: 16px;  
+    }
+    .team-content-para {
+     
+      padding: 1rem 0;
+      
+    }
+  }
+  @media screen and (min-width:768px) and (max-width: 1339px) {
+    .our-team-content{
+      width: 93.5%; 
+
+    }
   }
   

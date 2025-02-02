@@ -97,10 +97,6 @@ body::-webkit-scrollbar {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-  /* Navbar */
-  .navbar {
-    padding: 10px;
-  }
   .navbar-logo {
     height: 40px;
   }
@@ -116,10 +112,6 @@ body::-webkit-scrollbar {
 
   /* Our Team */
   .our-team-content h2 {
-    padding: 20px 15px 0px 15px;
-    font-size: 37px;
-  }
-  .our-team-content h2 {
     font-size: 37px;
   }
 
@@ -127,9 +119,7 @@ body::-webkit-scrollbar {
     font-size: 14px;
     text-align: center;
   }
-  .our-team-content {
-    padding: 25px 15px;
-  }
+
 
   .team-content-para {
     font-size: 14px;
@@ -137,9 +127,7 @@ body::-webkit-scrollbar {
     text-align: justify;
   }
 
-  .team-desc {
-    font-size: 14px;
-  }
+ 
 
   /* Personal Details */
   
@@ -149,15 +137,12 @@ body::-webkit-scrollbar {
     padding: 12px;
   }
 
-  .team-content-para {
-    padding-inline: 15px;
-  }
-
   .personal-details-content {
-    padding: 38px 15px;
+    padding: 20px 5px;
   }
   .personal-details-content h2 {
     font-size: 37px;
+    margin: 0px  0px 16px 0px;
   }
   
   .personal-details-form input::placeholder,
@@ -170,13 +155,11 @@ body::-webkit-scrollbar {
   /* Contact us */
   .contact-us-content h2 {
     font-size: 37px;
+    /* margin: 0px 0px 16px 0px; */
   }
 
   .contact-us-content {
-    padding: 38px 15px;
-  }
-  .contact-us-content p {
-    margin-top: 25px;
+    padding: 20px 5px;
   }
   .contact-details p {
     margin-top: 0;
@@ -210,6 +193,9 @@ body::-webkit-scrollbar {
 
 /* Adjustments for very small devices */
 @media screen and (max-width: 576px) {
+  .navbar{
+    padding-inline: 5px !important ;
+  }
   .navbar .nav-link {
     font-size: 12px;
   }
@@ -225,13 +211,20 @@ body::-webkit-scrollbar {
   .main-container {
     flex-direction: column;
   }
+  .our-team-content h2 {
+    /* padding: 20px 15px 0px 15px; */
+    font-size: 37px;
+  }
 
   .team-content-para {
     font-size: 14px;
     width: 100%;
+    /* padding-inline: 15px; */
   }
 
   .team-desc {
+    padding: 10px 0px;
+    font-weight: 500;
     font-size: 14px;
   }
   .personal-details-form .form-group {
@@ -291,7 +284,7 @@ body::-webkit-scrollbar {
     width: 100%;
   }
   .our-team-content {
-    padding:25px 0px 0px 0px;
+    padding:20px 5px 0px 0px;
   }
   
 }

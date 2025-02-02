@@ -11,7 +11,7 @@
   .personal-details-content h2 {
     font-family: var(--secondary-font);
     font-size: 48px;
-    margin-bottom: 20px;
+    margin: 16px 0px 16px 0px;
   }
   
   .personal-details-form .form-group {

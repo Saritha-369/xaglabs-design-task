@@ -12,6 +12,8 @@
 .contact-us-content h2 {
   font-family: var(--secondary-font);
   font-size: 48px;
+     margin: 5px 0px 0px 0px;
+
 }
 
 .contact-us-content p {
