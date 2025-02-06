@@ -134,7 +134,7 @@ body::-webkit-scrollbar {
   .personal-details-btn {
     width: 100%;
     font-size: 14px;
-    padding: 12px;
+    /* padding: 12px; */
   }
 
   .personal-details-content {
@@ -186,7 +186,7 @@ body::-webkit-scrollbar {
   }
   
   .personal-details-form .form-group {
-    height: 47px;
+    height: 53px;
   }
   
 }
@@ -207,6 +207,7 @@ body::-webkit-scrollbar {
   .sidebar {
     display: none;
   }
+
 
   .main-container {
     flex-direction: column;
@@ -229,15 +230,23 @@ body::-webkit-scrollbar {
   }
   .personal-details-form .form-group {
     width: 100%;
-    padding: 12px;
+    /* padding: 12px; */
   }
+  .error-msg {
+  
+    font-size: 12px;
+  }
+  .submit-btn{
+    margin-top:38px;
+  }
+  
 
   .personal-details-form input,
   .personal-details-form textarea {
     color: var(--main-color);
 
     font-size: 16px;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 5px;
     width: 100%;
   }
@@ -245,12 +254,14 @@ body::-webkit-scrollbar {
   .personal-details-form input,
   .personal-details-form textarea {
     font-size: 14px;
-    padding: 12px;
+    /* padding: 12px; */
   }
    /* Floating Icons */
    .floating-icons {
     right: 10px;
   }
+
+ 
   /* sidebar */
   .sidebar {
     font-size: 18px;
